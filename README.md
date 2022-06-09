@@ -95,7 +95,7 @@ To run tests use the following commands
 ## Roadmap
 
 - [x] Calculate employee's payment according to days and time of work
-- [x] Considering overtime work: ej. started at 7:00 and finished at 20:00 hours.
+- [x] Considering overtime work. Example: started at 7:00 and finished at 20:00 hours.
 - [ ] Validate correct format of txt input file.
 - [ ] Include rest hours.
 
