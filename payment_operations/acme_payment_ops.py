@@ -17,7 +17,6 @@ class LoadTxtInput(PaymentOps):
 	'''Load the input especified by -input args'''
 
 	def operation(input_file_path):
-		#with open(input_file_path,'r') as f:
 		f = open(input_file_path,'r')
 		loaded_txt_input = f.readlines()
 		#print(f"f type: {f.type()}")
@@ -82,7 +81,6 @@ class GenerateEmployeeDict(PaymentOps):
 		employee_dict = {}
 		for i, name in enumerate(names):
 			pdict = {}
-			#for i, days_of_work in enumerate(em_days_of_work):
 			for j, em_day_of_work in enumerate(em_days_of_work[i]):
 				pdict[em_day_of_work] = {"BT":em_hours_of_work[i][j][0],"ET":em_hours_of_work[i][j][1]} #beginning and ending time
 			employee_dict[name] = pdict
@@ -134,7 +132,3 @@ class EmployeePayment():
 			res = operation.operation(res)
 
 		return res
-
-"""if __name__ == '__main__':
-	txt_file_path = start_parser()
-	print(txt_file_path)"""
