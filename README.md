@@ -78,6 +78,7 @@ To run the app use the following command
 * Beginnig time: [HH1]:[MM1]; Ending time: [HH2]:[MM2]
 
 ### Test cases:
+To run tests cases **input_1** and **input_2** variables in _tdd_script.py_ must be updated according to the path in your machine
 * RENE=MO10:00-12:00,TU10:00-12:00,TH01:00-03:00,SA14:00-18:00,SU20:00-21:00
 * ASTRID=MO10:00-12:00,TH12:00-14:00,SU20:00-21:00
 * DIANA=MO10:00-12:00,TU10:00-12:00,WE10:00-12:00,TH01:00-03:00,FR10:00-12:00,SA14:00-18:00,SU20:00-21:00

@@ -3,8 +3,8 @@ import sys
 sys.path.insert(0, "..")
 from payment_operations.acme_payment_ops import *
 
-input_1 = r'C:/Users/hjara/OneDrive/Proyectos/IOET/acme_app/inputs/input1.txt'
-input_2 = r'C:/Users/hjara/OneDrive/Proyectos/IOET/acme_app/inputs/input2.txt'
+input_1 = r'/input1.txt' #Change here
+input_2 = r'/input2.txt' #Change here
 
 class tdd_cases(unittest.TestCase):
 
